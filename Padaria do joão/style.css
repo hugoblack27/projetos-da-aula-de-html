@@ -7,7 +7,7 @@
 
 body {
     background-image: linear-gradient(#DAA967 86%,
-            #AA8C66 100%);
+            #AA8C66 95%);
     min-height: 100vh;
     padding: 0;
     margin: 0;
@@ -23,6 +23,7 @@ body {
     align-items: center;
     border-bottom: 5px #5a4426 solid;
     font-size: 12px;
+    padding: 0 45px;
 }
 
 
@@ -31,10 +32,21 @@ body {
     align-items: center;
     width: 55px;
     padding: 0 45px;
-
-    /* main de inicio */
-
 }
+
+.nav-menu{  
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.nav-menu img{
+    height: auto;
+    width: 35px;
+    padding: 0;
+}
+
+ /* main de inicio */
 
 .main-inicio {
     display: flex;
@@ -49,6 +61,7 @@ body {
     text-align: center;
     font-size: 20px;
     width: 45%;
+    padding-top: 8%;
 }
 
 .frase-inicio h2 {
@@ -77,6 +90,7 @@ body {
     flex-direction: column;
     font-size: 20px;
     margin: 0 45px;
+    padding-top: 10%;
 }
 
 .tela-login {
@@ -124,6 +138,111 @@ body {
     justify-content: space-evenly;
     align-content: flex-end;
     padding-top: 35px;
+}
+
+/*
+///////////////////////////////////////
+        footer
+//////////////////////////////////////
+*/ 
+
+footer{
+display: flex;
+justify-content: flex-start;
+padding-top: 7%;
+font-size: 16px;
+}
+
+
+
+
+
+/* 
+///////////////////////////////////////
+        HOME
+//////////////////////////////////////
+*/
+
+.main-video{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.logo-home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px; 
+    border-bottom: 4px #5a4426 solid;
+    border-top: 4px #5a4426 solid;
+}
+
+.logo-home img{
+    width: 55px;
+    display: flex;
+    align-items: center;
+}
+
+
+.main-home{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 25px 0;
+    margin: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.comida-home{
+ border: 2px #5a4426 solid;
+ padding: 0 25px;
+ border-radius: 10px;
+ width: 10%;
+}
+
+.comida-home:hover{
+    border: 1px solid #AA8C66;
+}
+
+.comida-home h4{
+    border-bottom: 1px #5a4426 solid;
+    padding: 10px 0;
+    margin: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.comida-home h5{
+    padding: 10px 0;
+    margin: 0px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.comida-home img{
+    align-items: center;
+    margin: 5px;
+    border: 1px solid #5a4426;
+    float: left;
+    width: 170px;
+}
+
+
+.comida-home a{
+    display: flex;
+    justify-content: center;
+}
+
+.comida-home button{
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    color: #ffffff;
+    background-color: #5a4426;
 }
 
 /* 
