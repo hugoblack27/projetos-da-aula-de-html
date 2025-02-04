@@ -34,19 +34,19 @@ body {
     padding: 0 45px;
 }
 
-.nav-menu{  
+.nav-menu {
     display: flex;
     align-items: center;
     padding: 0px;
 }
 
-.nav-menu img{
+.nav-menu img {
     height: auto;
     width: 35px;
     padding: 0;
 }
 
- /* main de inicio */
+/* main de inicio */
 
 .main-inicio {
     display: flex;
@@ -144,13 +144,15 @@ body {
 ///////////////////////////////////////
         footer
 //////////////////////////////////////
-*/ 
+*/
 
-footer{
-display: flex;
-justify-content: flex-start;
-padding-top: 7%;
-font-size: 16px;
+footer {
+    border-top: 4px #5a4426 solid;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 2%;
+    font-size: 16px;
 }
 
 
@@ -163,30 +165,64 @@ font-size: 16px;
 //////////////////////////////////////
 */
 
-.main-video{
+.main-video {
     display: flex;
-    justify-content: center;
-    margin-top: 20px;
-
+    justify-content: space-around;
+    align-items: center;
+    object-fit: cover;
+    padding-top: 15px;
+    background-color: #b17c32;
 }
 
-.logo-home{
+.image-padeiro-home{
+    width: 30%;  
+    height: 100%;
+}
+
+.paes-home{
+    width: 250px;  
+    height: 250px;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.divs-home-comidas{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.divs-home-comidas a{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 5px; 
+    flex-direction: column;
+    
+}
+
+.paes-home:hover{
+    border: 1px solid #AA8C66;
+}
+
+.logo-home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5px;
     border-bottom: 4px #5a4426 solid;
     border-top: 4px #5a4426 solid;
 }
 
-.logo-home img{
+.logo-home img {
     width: 55px;
     display: flex;
     align-items: center;
 }
 
+/*  main de baixo */
 
-.main-home{
+.main-home {
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -197,18 +233,18 @@ font-size: 16px;
 }
 
 
-.comida-home{
- border: 2px #5a4426 solid;
- padding: 0 25px;
- border-radius: 10px;
- width: 10%;
+.comida-home {
+    border: 2px #5a4426 solid;
+    padding: 0 25px;
+    border-radius: 10px;
+    width: 10%;
 }
 
-.comida-home:hover{
+.comida-home:hover {
     border: 1px solid #AA8C66;
 }
 
-.comida-home h4{
+.comida-home h4 {
     border-bottom: 1px #5a4426 solid;
     padding: 10px 0;
     margin: 0px;
@@ -216,14 +252,14 @@ font-size: 16px;
     font-size: 15px;
 }
 
-.comida-home h5{
+.comida-home h5 {
     padding: 10px 0;
     margin: 0px;
     text-align: center;
     font-size: 15px;
 }
 
-.comida-home img{
+.comida-home img {
     align-items: center;
     margin: 5px;
     border: 1px solid #5a4426;
@@ -232,12 +268,12 @@ font-size: 16px;
 }
 
 
-.comida-home a{
+.comida-home a {
     display: flex;
     justify-content: center;
 }
 
-.comida-home button{
+.comida-home button {
     border: none;
     border-radius: 10px;
     margin: 10px;
@@ -245,18 +281,16 @@ font-size: 16px;
     background-color: #5a4426;
 }
 
+
 /* 
 ///////////////////////////////////////
         Compras
 //////////////////////////////////////
 */
-li{
-    list-style-type: none;
-}
 
-.nav-compras{
+.nav-compras {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center ;
+    align-items: center;
 }
