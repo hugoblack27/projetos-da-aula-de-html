@@ -149,13 +149,18 @@ body {
 footer {
     border-top: 4px #5a4426 solid;
     display: flex;
-    justify-content: center;
-    align-items: end;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 2%;
     font-size: 16px;
 }
 
-
+.icons-footer img{
+    display: flex;
+    
+    width: 20px;
+    height: 20px;
+}
 
 
 
