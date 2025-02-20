@@ -452,3 +452,71 @@ font-size: 45px;
     text-align: center;
 
 }
+
+@media only screen and (max-width: 768px) {
+    .inicio-pagina {
+        flex-direction: column;
+        padding: 10px;
+    }
+ 
+    .inicio-pagina img {
+        padding: 10px 0;
+    }
+ 
+    .main-inicio {
+        flex-direction: column;
+    }
+ 
+    .frase-inicio {
+        width: 100%;
+        padding-top: 5%;
+    }
+ 
+    .div-login {
+        margin: 0 20px;
+        padding-top: 5%;
+    }
+ 
+    .tela-login {
+        padding: 40px 10% 0;
+    }
+ 
+    .main-video {
+        flex-direction: column;
+    }
+ 
+    .image-padeiro-home {
+        width: 80%;
+    }
+ 
+    .paes-home {
+        width: 200px;
+        height: 200px;
+    }
+ 
+    .comida-home {
+        width: 45%;
+    }
+}
+ 
+@media only screen and (max-width: 600px) {
+    .frase-inicio h2 {
+        font-size: 24px;
+    }
+ 
+    .div-login {
+        margin: 0 10px;
+    }
+ 
+    .tela-login {
+        padding: 20px 5% 0;
+    }
+ 
+    .comida-home {
+        width: 100%;
+    }
+ 
+    .comida-home img {
+        width: 100%;
+    }
+}
